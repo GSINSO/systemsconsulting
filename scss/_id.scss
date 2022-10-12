@@ -1,0 +1,57 @@
+#logo {
+    @include alto(80px);
+    @include padd(0px);
+    margin: 0px;
+    float: left;
+    transform: scale(1) translate(-5px, 1px);
+    transition: 1s transform linear;
+}
+
+#menu {
+    margin-top: 4%;
+    z-index: 1;
+}
+
+#whatsapp {
+    @include sizes(50px, 50px);
+    position: fixed;
+    bottom: 40px;
+    background-color: map-get($colores, verde);
+    color: map-get($colores, blanco);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px map-get($colores, gris);
+    z-index: 100;
+    right: 15px;
+}
+
+#imginicio {
+    width: auto;
+    @include padd(10%);
+}
+
+#carouselExampleDark {
+    @include padd(5%);
+}
+
+#titu {
+    font-family: 'Fredoka One';
+    text-align: center;
+    color: map-get($colores, negro);
+    border-block-color: map-get($colores, blanco);
+    font-size: 2.4rem;
+    margin-top: 22px;
+    font-weight: bold;
+    transform: scale(1);
+    transition: 1s transform linear;
+}
+
+#textoprincipal {
+    @include paddingtext;
+}
+
+#display-3 {
+    color: map-get($colores, negro);
+    font-weight: bold;
+}

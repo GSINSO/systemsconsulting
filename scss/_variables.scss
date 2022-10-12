@@ -1,0 +1,21 @@
+$colores: ( negro: black, blanco: white, fluo: greenyellow, azul: darkblue, celeste: cornflowerblue, verde: #25d366, gris: #999, );
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin paddingtext {
+    padding: 0% 5% 0% 5%;
+}
+
+@mixin paddingbody {
+    padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+@mixin padd($margen) {
+    padding: $margen;
+}
+
+@mixin alto($alt) {
+    height: $alt;
+}

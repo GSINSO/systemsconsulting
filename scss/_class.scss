@@ -1,0 +1,8 @@
+.card {
+    background-color: map-get($colores, celeste);
+}
+
+.carousel-caption {
+    font-weight: bold !important;
+    text-shadow: map-get($colores, fluo) 0.4em 0.4em 0.8em;
+}
